@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "c:\\Users\\Anton\\OneDrive\\Documentos\\GitHub\\Campos-Clinicos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Campos Clinicos.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Campos Clinicos.bundle.scp.css"
+    },
+    {
+      "Id": "c:\\Users\\Anton\\OneDrive\\Documentos\\GitHub\\Campos-Clinicos\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Anton\\OneDrive\\Documentos\\GitHub\\Campos-Clinicos\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Anton\\OneDrive\\Documentos\\GitHub\\Campos-Clinicos\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "c:\\Users\\Anton\\OneDrive\\Documentos\\GitHub\\Campos-Clinicos\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "c:\\Users\\Anton\\OneDrive\\Documentos\\GitHub\\Campos-Clinicos\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "c:\\Users\\Anton\\OneDrive\\Documentos\\GitHub\\Campos-Clinicos\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Anton\\OneDrive\\Documentos\\GitHub\\Campos-Clinicos\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "c:\\Users\\Anton\\OneDrive\\Documentos\\GitHub\\Campos-Clinicos\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "c:\\Users\\Anton\\OneDrive\\Documentos\\GitHub\\Campos-Clinicos\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "c:\\Users\\Anton\\OneDrive\\Documentos\\GitHub\\Campos-Clinicos\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "c:\\Users\\Anton\\OneDrive\\Documentos\\GitHub\\Campos-Clinicos\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "c:\\Users\\Anton\\OneDrive\\Documentos\\GitHub\\Campos-Clinicos\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "c:\\Users\\Anton\\OneDrive\\Documentos\\GitHub\\Campos-Clinicos\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Campos Clinicos.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Campos Clinicos.props",
+      "PackagePath": "build\\Campos Clinicos.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Campos Clinicos.props",
+      "PackagePath": "buildMultiTargeting\\Campos Clinicos.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Campos Clinicos.props",
+      "PackagePath": "buildTransitive\\Campos Clinicos.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

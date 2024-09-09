@@ -1,0 +1,87 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Campos_Clinicos
+build_property.RootNamespace = Campos_Clinicos
+build_property.ProjectDir = D:\Programacion\Campos-Clinicos\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Programacion\Campos-Clinicos
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Programacion/Campos-Clinicos/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programacion/Campos-Clinicos/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programacion/Campos-Clinicos/Pages/Proceso_Retribución.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvY2Vzb19SZXRyaWJ1Y2nDs24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programacion/Campos-Clinicos/Pages/Protected.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvdGVjdGVkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programacion/Campos-Clinicos/Pages/Proyeccion_Gastos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJveWVjY2lvbl9HYXN0b3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programacion/Campos-Clinicos/Pages/VerDetalle.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVyRGV0YWxsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programacion/Campos-Clinicos/Shared/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programacion/Campos-Clinicos/Shared/LoginDisplay.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programacion/Campos-Clinicos/Shared/Logout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ291dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programacion/Campos-Clinicos/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programacion/Campos-Clinicos/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programacion/Campos-Clinicos/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-iuchycyfyg
+
+[D:/Programacion/Campos-Clinicos/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ejtv7o8ew0
+
+[D:/Programacion/Campos-Clinicos/Areas/Identity/Pages/Account/LogOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dPdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programacion/Campos-Clinicos/Areas/Identity/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programacion/Campos-Clinicos/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programacion/Campos-Clinicos/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

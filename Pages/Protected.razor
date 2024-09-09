@@ -1,0 +1,13 @@
+@page "/protected"
+@using Microsoft.AspNetCore.Components.Authorization
+@inject AuthenticationStateProvider AuthenticationStateProvider
+
+<AuthorizeView>
+    <Authorized>
+        <h3>Protected Content</h3>
+        <p>You are logged in!</p>
+    </Authorized>
+    <NotAuthorized>
+        <p>You are not authorized to view this content. Please <a href="/login">login</a>.</p>
+    </NotAuthorized>
+</AuthorizeView>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Campos Clinicos.props" />
+</Project>

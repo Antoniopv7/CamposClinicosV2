@@ -1,0 +1,143 @@
+﻿@page "/Proceso_Retribución"
+
+@using Microsoft.AspNetCore.Components
+@inject NavigationManager Navigation
+
+<PageTitle>Proceso_Retribución</PageTitle>
+
+<h1>Proceso Retribución</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Contratos Instituciones/Por tipo</th>
+            <th>Total gasto año</th>
+            <th>Deuda total</th>
+            <th>Total Facturado y Pagado</th>
+            <th>Saldo Estimado a Pagar</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var convenio in convenios)
+        {
+            <tr>
+                <td>
+                    @if (convenioEnEdicion == convenio)
+                    {
+                        <input @bind="convenio.Contrato" class="form-control" />
+                    }
+                    else
+                    {
+                        @convenio.Contrato
+                    }
+                </td>
+                <td>
+                    @if (convenioEnEdicion == convenio)
+                    {
+                        <input type="number" @bind="convenio.TotalGastoAnual" class="form-control" />
+                    }
+                    else
+                    {
+                        @convenio.TotalGastoAnual
+                    }
+                </td>
+                <td>
+                    @if (convenioEnEdicion == convenio)
+                    {
+                        <input type="number" @bind="convenio.DeudaTotal" class="form-control" />
+                    }
+                    else
+                    {
+                        @convenio.DeudaTotal
+                    }
+                </td>
+                <td>
+                    @if (convenioEnEdicion == convenio)
+                    {
+                        <input type="number" @bind="convenio.TotalFacturadoPagado" class="form-control" />
+                    }
+                    else
+                    {
+                        @convenio.TotalFacturadoPagado
+                    }
+                </td>
+                <td>
+                    @if (convenioEnEdicion == convenio)
+                    {
+                        <input type="number" @bind="convenio.SaldoEstimadoPagar" class="form-control" />
+                    }
+                    else
+                    {
+                        @convenio.SaldoEstimadoPagar
+                    }
+                </td>
+                <td>
+                    <button class="btn btn-danger" @onclick="() => Eliminar_Convenio(convenio)">
+                        <i class="fas fa-trash"></i>
+                    </button>
+                    <button class="btn btn-warning" @onclick="() => Editar_Convenio(convenio)">
+                        <i class="fas @(convenioEnEdicion == convenio ? "fa-save" : "fa-pencil-alt")"></i>
+                        @(convenioEnEdicion == convenio ? "Guardar" : "Editar")
+                    </button>
+                    <button class="btn btn-success" @onclick="() => VerDetalle(convenio)">
+                        <i class="fas fa-eye"></i> Ver Detalle
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<button class="btn btn-primary" @onclick="Agregar_Convenio">Nuevo Convenio</button>
+
+@code {
+    public class Convenio
+    {
+        public string Contrato { get; set; } = string.Empty;
+        public decimal TotalGastoAnual { get; set; }
+        public decimal DeudaTotal { get; set; }
+        public decimal TotalFacturadoPagado { get; set; }
+        public decimal SaldoEstimadoPagar { get; set; }
+    }
+
+    private List<Convenio> convenios = new List<Convenio>();
+    private Convenio? convenioEnEdicion = null;
+
+
+    private void Agregar_Convenio()
+    {
+        convenios.Add(new Convenio
+            {
+                Contrato = "Nuevo Contrato",
+                TotalGastoAnual = 0,
+                DeudaTotal = 0,
+                TotalFacturadoPagado = 0,
+                SaldoEstimadoPagar = 0
+            });
+    }
+
+    private void Eliminar_Convenio(Convenio convenio)
+    {
+        convenios.Remove(convenio);
+    }
+
+    private void Editar_Convenio(Convenio convenio)
+    {
+        if (convenioEnEdicion == convenio)
+        {
+            convenioEnEdicion = null;
+        }
+        else
+        {
+            convenioEnEdicion = convenio;
+        }
+    }
+
+    private void VerDetalle(Convenio convenio)
+    {
+        // Navegar a la página de detalle con el Id del convenio
+        Navigation.NavigateTo($"/VerDetalle/{convenio.Contrato}");
+    }
+}
+

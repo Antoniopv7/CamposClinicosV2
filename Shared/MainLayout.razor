@@ -1,0 +1,41 @@
+﻿@inherits LayoutComponentBase
+@using Microsoft.AspNetCore.Components.Authorization
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager NavigationManager
+
+<PageTitle>Campos Clinicos</PageTitle>
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4 auth">
+            <_LoginDisplay />
+            <a href="https://www.ucentral.cl/presentacion-campos-clinicos#:~:text=Para%20la%20Facultad%20de%20Ciencias%20de%20la%20Salud,Regi%C3%B3n%20de%20Coquimbo%20y%20otras%20localidades%20del%20pa%C3%ADs." target="_blank">¿Quiénes Somos?</a>
+        </div>
+
+        <article class="content px-4">
+            <AuthorizeView>
+                <Authorized>
+                    @Body
+                </Authorized>
+                <NotAuthorized>
+                    <p>You are not authorized to view this content. Please <a href="/login">login</a>.</p>
+                </NotAuthorized>
+            </AuthorizeView>
+        </article>
+    </main>
+</div>
+
+@code {
+    private bool isAuthenticated;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        isAuthenticated = authState.User.Identity.IsAuthenticated;
+    }
+}
+
